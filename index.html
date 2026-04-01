@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BulkStock Dashboard</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <header>
+    <h1>📦 BulkStock</h1>
+
+    <input 
+      type="text" 
+      placeholder="Search products..." 
+      id="searchInput"
+    />
+
+    <select id="categoryFilter">
+      <option value="all">All Categories</option>
+    </select>
+
+    <select id="sortPrice">
+      <option value="">Sort by Price</option>
+      <option value="low">Low → High</option>
+      <option value="high">High → Low</option>
+    </select>
+
+    <button id="themeToggle">🌙</button>
+  </header>
+
+  <div id="loader">Loading products...</div>
+
+  <div id="products"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
