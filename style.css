@@ -153,3 +153,23 @@ button:hover {
     width: 100%;
   }
 }
+
+
+/* Favorite Button */
+.fav-btn {
+  margin-top: 8px;
+  background: white;
+  color: red;
+  border: 1px solid red;
+  border-radius: 20px;
+  padding: 6px 10px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* Hover Effect */
+.fav-btn:hover {
+  background: red;
+  color: white;
+  transform: scale(1.05);
+}
